@@ -115,7 +115,7 @@ export default function LotteryEntrance() {
 
     return (
         <div className="p-5">
-            Hi from Lottery Entrance!
+            <h1 className="py-4 px-4 font-bold text-3xl">Lottery</h1>
             <div className=" text-red-600">Supported Chains : Sepolia (recomended) & Goerli </div>
             {raffleAddress ? (
                 <div>
